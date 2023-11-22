@@ -1602,7 +1602,7 @@ AssertJ Core provides a fluent recursive comparison API for `Object` assertions 
 * link:#assertj-core-recursive-comparison-overriding-error-messages[Overriding error messages for specific fields or types].
 * link:#assertj-core-recursive-comparison-introspection-strategy[Specifying how to introspect the objects to compare].
 
-The recursive comparison is meant to to replace `isEqualToComparingFieldByFieldRecursively`.
+The recursive comparison is meant to replace `isEqualToComparingFieldByFieldRecursively`.
 
 ===== Basic usage
 
