@@ -1655,7 +1655,7 @@ The recursive comparison uses introspection to find out the fields to compare an
 It first looks for the object under test fields (skipping any ignored ones as specified in the configuration), then it looks for the same fields in the expected object to compare to.
 
 The next step is resolving the field values using first a getter method (if any) or reading the field value. The getter methods for a field `x` are `getX()` or `isX()` for boolean fields.
-If you enable bare properties resolution, a method `x()` is also used considered as a valid getter.
+If you enable bare properties resolution, a method `x()` is also considered as a valid getter.
 
 Bare name property is enabled by calling `Assertions.setExtractBareNamePropertyMethods(true);` (it is disabled by default since 3.18.0).
 
